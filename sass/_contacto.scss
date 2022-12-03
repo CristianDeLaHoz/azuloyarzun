@@ -1,0 +1,142 @@
+ /* Caja de contacto */
+ .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 0px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: $colorInput; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: $colorInput; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: $colorInput; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: $colorLetra; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+    
+  label{
+    display: block; 
+    float: center;  
+  }
+   
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: $colorPrincipal; 
+    border-color: &$colorLetra; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+    
+  button p{
+    color: $colorInput; 
+  }
+  
+    span{
+    color: $colorLetra; 
+  }
+  
+    .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+    ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  .formulario {
+    padding-right: 30px;
+}
+
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  /* Galeria de fotos */
+
+  .container {
+    max-width: 800px;
+    margin: 1% auto;
+    padding: 20px;
+    background-color: $colorInput;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .lightbox-gallery div > img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .lightbox-gallery div {
+    margin: 10px;
+    flex-basis: 100%;
+  }
+    
+    .lightbox > div {
+      margin-bottom: 10px;
+    }
+    

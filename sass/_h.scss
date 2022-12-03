@@ -1,0 +1,30 @@
+h1{
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 39px;  
+    text-align: letf; 
+    color: #ab4493;
+  }
+h2{
+    justify-content: center;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    margin: auto;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: $colorPrincipal; 
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
