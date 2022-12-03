@@ -1,6 +1,15 @@
-@media (max-width:360px){
+@media (max-width:740px){
     body{
           background-color: $colorPrincipal;
           background-image: none;
         }
+    contact_form{  
+          width: auto; 
+          height: auto;
     }
+    container{
+          align-items: center;
+          margin: center;
+  }
+}
+    
